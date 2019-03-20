@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Type JavaScript</title>
+    <script src="heritage.js" type="text/javascript"></script>
+</head>
+<body>
+
+
+
+<script>
+
+    Stagiaire.prototype = new Personne();
+    Stagiaire.prototype.constructor = Stagiaire;
+    let stage = new Stagiaire('dua','fred',18,'java');
+
+    console.log("fiche Personne \n");
+    console.log( stage);
+
+    console.log(stage instanceof Personne);
+
+
+</script>
+
+</body>
+</html>
