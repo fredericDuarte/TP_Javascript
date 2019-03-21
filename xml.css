@@ -1,0 +1,15 @@
+.text-red {
+    color: red;
+}
+.logo, h1{
+    text-align: center;
+    align-items: center;
+    margin: 10px;
+}
+
+.header{
+
+    border : 2px blue double;
+    width: 500px;
+
+}
